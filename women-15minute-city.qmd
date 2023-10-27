@@ -13,6 +13,6 @@ This study focuses on accessibility of spaces by foot within a virtual urban env
 
 ```{r, echo = FALSE, out.width='40%'}
 xaringanExtra::embed_xaringan(
-  url = "https://github.com/rstudio/bookdown/issues/92",
+  url = "https://vimeo.com/878736542?share=copy",
   ratio = "16:9")
 ```
