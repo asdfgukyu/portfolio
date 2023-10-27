@@ -1,0 +1,18 @@
+# Agent Base Model: Feasibility of the 15-minute city for women
+
+## Premise
+
+The 15-minute city has become a popular urban planning concept in recent years, popularised by Paris Mayor Anne Hidalgo and Carlos Moreno for their plans to created a polycentric Paris.
+
+However there has been little definitive definition of what a 15-minute city looks like, and how it should be measured.
+
+I wanted to challenge the concept further to investigate how gender, safety preferences, household responsibilities, traffic and the urban landscape produce inequality in access in local areas. How does women’s greater fear of crime and propensity to stay on main roads influence their overall travel time in relation to their male counterparts?
+
+
+This study focuses on accessibility of spaces by foot within a virtual urban environment, using Agent Base Modelling, accounting for traffic, lighting, and the gendered behaviour of residents due the real or perceived risk of crime.
+
+```{r, echo = FALSE, out.width='40%'}
+xaringanExtra::embed_xaringan(
+  url = "https://vimeo.com/878736542?share=copy",
+  ratio = "16:9")
+```

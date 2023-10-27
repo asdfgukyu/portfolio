@@ -1,9 +1,7 @@
 # Hello! {.unnumbered}
 
-This is a Quarto book.
+My name is Guk, and welcome to my portfolio. This book contains the projects I've done throughout my degree in MSc Urban Spatial Science at the Centre of Advance Spatial Analysis, UCL.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+I have a background in cultural production and a BA in Geography from the LSE, before I made the switch to urban analytics, especially looking at transport sustainability. So you will find a mixture of these themes in throughout this book!
 
-```{r}
-1 + 1
-```
+This book is created from R markdown and executable code.

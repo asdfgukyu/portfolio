@@ -2,20 +2,27 @@ project:
   type: book
 
 book:
-  title: "portfolio"
-  author: "Jane Doe"
-  date: "24/10/2023"
+  title: "Portfolio"
+  author: "Guk Yu"
+  date: "26/10/2023"
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
+    - women-15minute-city.qmd
+    - e-scooter-active-travel.qmd
+    - airbnb-hotel-culture-policy.qmd
+    - london-queer-population.qmd
+    - london-underground-heat-resilience-index.qmd
+    - stop-search-frisk.qmd
     - references.qmd
 
 bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme:
+        light: [cosmo, flatly]
+        dark: [cosmo, darkly]
+       
   pdf:
     documentclass: scrreprt
 
