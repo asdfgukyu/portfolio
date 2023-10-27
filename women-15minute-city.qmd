@@ -11,10 +11,4 @@ I wanted to challenge the concept further to investigate how gender, safety pref
 
 This study focuses on accessibility of spaces by foot within a virtual urban environment, using Agent Base Modelling, accounting for traffic, lighting, and the gendered behaviour of residents due the real or perceived risk of crime.
 
-```{r, echo = FALSE, out.width='40%'}
-xaringanExtra::embed_xaringan(
-  url = "https://vimeo.com/878736542?share=copy",
-  ratio = "16:9")
-```
-
-x
+![](https://vimeo.com/878736542?share=copy){width="90%"}
