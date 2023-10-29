@@ -1,4 +1,7 @@
-# Agent Base Model: Feasibility of the 15-minute city for women
+# Agent Based Model: Feasibility of the 15-minute city for women
+## Technical Skills
+Agent Based Modelling, Netlogo
+
 
 ## Premise
 
@@ -6,14 +9,14 @@ The 15-minute city has become a popular urban planning concept in recent years, 
 
 However there has been little definitive definition of what a 15-minute city looks like, and how it should be measured.
 
-I wanted to challenge the concept further to investigate how gender, safety preferences, household responsibilities, traffic and the urban landscape produce inequality in access in local areas. How does women’s greater fear of crime and propensity to stay on main roads influence their overall travel time in relation to their male counterparts?
+I wanted to challenge the concept further to investigate how gender, safety preferences, household responsibilities, traffic and the urban landscape produce inequality in access in local areas. How does women's greater fear of crime and propensity to stay on main roads influence their overall travel time in relation to their male counterparts?
 
 This study focuses on accessibility of spaces by foot within a virtual urban environment, using Agent Base Modelling, accounting for traffic, lighting, and the gendered behaviour of residents due the real or perceived risk of crime.
 
-Code available on [Github](https://github.com/asdfgukyu/abm).
+This model is generated and executatble in Netlogo. Code and Agent Based Model Design Concepts and Details (ODD) available on [Github](https://github.com/asdfgukyu/abm).
 
-<iframe width="756" height="567" 
-src="https://player.vimeo.com/video/878736542?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" allow="autoplay">
+<iframe width="756" height="567" src="https://player.vimeo.com/video/878736542?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" allow="autoplay">
+
 </iframe>
 
-The model
+The model is evaluated by its ability to reproduce the average duration for individual agents with different genders and caring responsibilities to reach a destination. The level of traffic can be adjusted to stimulate the bottleneck nature of roads, increasing wait and journey time of travelers with tendency to walk on busy main roads. Street lights can also be turn as a toggle function, which increase the number of roads for travelers with higher propensity for safety to walk on, reducing travel time.

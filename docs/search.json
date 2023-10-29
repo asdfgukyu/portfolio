@@ -2,16 +2,23 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Portfolio",
+    "title": "Guk Yu: Portfolio",
     "section": "",
     "text": "My name is Guk, and welcome to my portfolio. This book contains the projects I’ve done throughout my degree in MSc Urban Spatial Science at the Centre of Advance Spatial Analysis, UCL.\nI have a background in cultural production and a BA in Geography from the LSE, before I made the switch to urban analytics, especially looking at transport sustainability. So you will find a mixture of these themes in throughout this book!\nThis book is created from R markdown and executable code."
   },
   {
     "objectID": "women-15minute-city.html",
     "href": "women-15minute-city.html",
-    "title": "1  Agent Base Model: Feasibility of the 15-minute city for women",
+    "title": "1  Agent Based Model: Feasibility of the 15-minute city for women",
     "section": "",
-    "text": "The 15-minute city has become a popular urban planning concept in recent years, popularised by Paris Mayor Anne Hidalgo and Carlos Moreno for their plans to created a polycentric Paris.\nHowever there has been little definitive definition of what a 15-minute city looks like, and how it should be measured.\nI wanted to challenge the concept further to investigate how gender, safety preferences, household responsibilities, traffic and the urban landscape produce inequality in access in local areas. How does women’s greater fear of crime and propensity to stay on main roads influence their overall travel time in relation to their male counterparts?\nThis study focuses on accessibility of spaces by foot within a virtual urban environment, using Agent Base Modelling, accounting for traffic, lighting, and the gendered behaviour of residents due the real or perceived risk of crime.\nCode available on Github.\n\n\nThe model"
+    "text": "Agent Based Modelling, Netlogo"
+  },
+  {
+    "objectID": "women-15minute-city.html#premise",
+    "href": "women-15minute-city.html#premise",
+    "title": "1  Agent Based Model: Feasibility of the 15-minute city for women",
+    "section": "1.2 Premise",
+    "text": "1.2 Premise\nThe 15-minute city has become a popular urban planning concept in recent years, popularised by Paris Mayor Anne Hidalgo and Carlos Moreno for their plans to created a polycentric Paris.\nHowever there has been little definitive definition of what a 15-minute city looks like, and how it should be measured.\nI wanted to challenge the concept further to investigate how gender, safety preferences, household responsibilities, traffic and the urban landscape produce inequality in access in local areas. How does women’s greater fear of crime and propensity to stay on main roads influence their overall travel time in relation to their male counterparts?\nThis study focuses on accessibility of spaces by foot within a virtual urban environment, using Agent Base Modelling, accounting for traffic, lighting, and the gendered behaviour of residents due the real or perceived risk of crime.\nThis model is generated and executatble in Netlogo. Code and Agent Based Model Design Concepts and Details (ODD) available on Github.\n\n\nThe model is evaluated by its ability to reproduce the average duration for individual agents with different genders and caring responsibilities to reach a destination. The level of traffic can be adjusted to stimulate the bottleneck nature of roads, increasing wait and journey time of travelers with tendency to walk on busy main roads. Street lights can also be turn as a toggle function, which increase the number of roads for travelers with higher propensity for safety to walk on, reducing travel time."
   },
   {
     "objectID": "e-scooter-active-travel.html",
