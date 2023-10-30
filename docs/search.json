@@ -49,31 +49,31 @@
     "text": "3.2 Premise\nIn response to growing contention of Airbnb’s impact on local housing market and affordable homes, I worked with a group of 4 to create a policy brief which provided an alternative explanation to the spatial distribution of Airbnb listings, in relations to existing hotel industry and cultural infrastructures in London.\nThis analysis is generated and executable in Python. Code and policy brief available on Github.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAs anticipated, the distribution of Airbnb listings is very similar to instances of cultural infrastructure, with the highest density of listings in the centre of the city and a gradual sprawl outward towards Zone 2. This supports the prediction that Airbnb listings cluster around areas with many cultural offerings in the city. This is distinct from patterns in the hotel industry; 50% of hotels are listed in the Westminster and Kensington and Chelsea alone. The hotel industry loosely follows the distribution of cultural infrastructure in central London, with fair proximity to more established and well-known cultural spaces. However, there is a clear disconnect between hotel supply and cultural offerings beyond Zone 1. Indeed, the hotel industry is much more rigid in operations due to the higher barriers to market entry (investment, planning permission and overheads). The slower adjustments in hotel supply therefore provide an opening in the market for Airbnbs, which are able to react quickly to market trends, responding to growing areas of demand with greater flexibility than hotels.\nOn a more granular scale, the analysis identified 5 distinct groups of hotel, Airbnb and cultural infrastructure agglomeration. Areas with relatively low hotel density, and medium cultural and Airbnb density illustrate Airbnb’s advantage as a flexible method of accommodation that can meet the demand of areas with many cultural amenities. Areas with these Airbnb-hotel-culture market proportions, which dominate most of central London and its surrounds, raise concerns about the potential reduction in housing stock and displacement of incumbent residents.\n\n\n\n\n\n\n\n\n\n3 areas (Westminister, Croydon, East London area) were used as case studies to illustrate place-specific nuances for the brief."
   },
   {
-    "objectID": "london-queer-population.html",
-    "href": "london-queer-population.html",
-    "title": "4  London Queer Population",
-    "section": "",
-    "text": "xxx"
-  },
-  {
-    "objectID": "london-underground-heat-resilience-index.html",
-    "href": "london-underground-heat-resilience-index.html",
-    "title": "5  London Underground Heat Resilience",
-    "section": "",
-    "text": "xxx"
-  },
-  {
     "objectID": "stop-search-frisk.html",
     "href": "stop-search-frisk.html",
-    "title": "6  Stop Search and Frisk",
+    "title": "4  Stop Search and Frisk",
     "section": "",
     "text": "R, QGIS, spatial weight matrix, point pattern analysis, spatial autocorrelation, visualisation"
   },
   {
     "objectID": "stop-search-frisk.html#premise",
     "href": "stop-search-frisk.html#premise",
-    "title": "6  Stop Search and Frisk",
-    "section": "6.2 Premise",
-    "text": "6.2 Premise\nTasked with a brief of examining the New York Police Department’s stop, question and frisk (SQF) policy. I chose to investigate presence and severity of the Department’s racially targeted overpolicing in 2021, after the Black Lives Matters protests. A point pattern analysis, spatial autocorrelation analysis and various visualisations were produced.\nThis analysis was completed in exam conditions within 6 hours.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoint pattern analysis allowed for evaluation of point data regardless of district or ward boundaries. Analysis shows there are 6 distinct clusters of high SQF but low hit rate against African Americans in the area.\n\n\n\n\n\n\n\n\n\nSpatial auotcorrelation shows a cluster of districts in mid to upper Manhattan with high SQF with low hit rate in the Bronx, and north-eastern Queens and northern Brooklyn."
+    "title": "4  Stop Search and Frisk",
+    "section": "4.2 Premise",
+    "text": "4.2 Premise\nTasked with a brief of examining the New York Police Department’s stop, question and frisk (SQF) policy. I chose to investigate presence and severity of the Department’s racially targeted overpolicing in 2021, after the Black Lives Matters protests. A point pattern analysis, spatial autocorrelation analysis and various visualisations were produced.\nThis analysis was completed in exam conditions within 6 hours and executable in R. Code available on Github.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoint pattern analysis allowed for evaluation of point data regardless of district or ward boundaries. Analysis shows there are 6 distinct clusters of high SQF but low hit rate against African Americans in the area.\n\n\n\n\n\n\n\n\n\nSpatial auotcorrelation shows a cluster of districts in mid to upper Manhattan with high SQF with low hit rate in the Bronx, and north-eastern Queens and northern Brooklyn."
+  },
+  {
+    "objectID": "london-queer-population.html",
+    "href": "london-queer-population.html",
+    "title": "5  London Queer Population",
+    "section": "",
+    "text": "xxx"
+  },
+  {
+    "objectID": "london-underground-heat-resilience-index.html",
+    "href": "london-underground-heat-resilience-index.html",
+    "title": "6  London Underground Heat Resilience",
+    "section": "",
+    "text": "xxx"
   }
 ]

@@ -6,7 +6,8 @@ R, QGIS, spatial weight matrix,  point pattern analysis, spatial autocorrelation
 ## Premise
 Tasked with a brief of examining the New York Police Department's stop, question and frisk (SQF) policy. I chose to investigate presence and severity of the Department's racially targeted overpolicing in 2021, after the Black Lives Matters protests. A point pattern analysis, spatial autocorrelation analysis and various visualisations were produced.
 
-This analysis was completed in exam conditions within 6 hours. 
+This analysis was completed in exam conditions within 6 hours and executable in R. Code available on [Github](https://github.com/CASA0005-coursework/casa0005-final-exam-22-23-asdfgukyu).
+
 
 ```{r echo=FALSE, out.width='80%', fig.align='center'}
 knitr::include_graphics("img/gis_general.png")

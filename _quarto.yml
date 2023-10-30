@@ -11,9 +11,9 @@ book:
     - women-15minute-city.qmd
     - e-scooter-active-travel.qmd
     - airbnb-hotel-culture-policy.qmd
+    - stop-search-frisk.qmd
     - london-queer-population.qmd
     - london-underground-heat-resilience-index.qmd
-    - stop-search-frisk.qmd
     - references.qmd
 
 bibliography: references.bib
