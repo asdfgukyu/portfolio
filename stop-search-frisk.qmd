@@ -24,8 +24,11 @@ knitr::include_graphics("img/gis_dbscan.png")
 Spatial auotcorrelation shows a cluster of districts in mid to upper Manhattan with high SQF with low hit rate in the Bronx, and north-eastern Queens and northern Brooklyn.
 
 ::: {layout-ncol="2"}
-![](img/gis_moran.png)
-![](img/gis_G.png)
+
+![](img/gis_moran.png){width=50%}
+
+![](img/gis_G.png){width=50%}
+
 :::
 
 
