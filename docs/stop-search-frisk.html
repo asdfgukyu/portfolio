@@ -143,7 +143,14 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#technical-skills" id="toc-technical-skills" class="nav-link active" data-scroll-target="#technical-skills"><span class="toc-section-number">6.1</span>  Technical Skills</a></li>
+  <li><a href="#premise" id="toc-premise" class="nav-link" data-scroll-target="#premise"><span class="toc-section-number">6.2</span>  Premise</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -164,9 +171,53 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>xxx</p>
+<section id="technical-skills" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="technical-skills"><span class="header-section-number">6.1</span> Technical Skills</h2>
+<p>R, QGIS, spatial weight matrix, point pattern analysis, spatial autocorrelation, visualisation</p>
+</section>
+<section id="premise" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="premise"><span class="header-section-number">6.2</span> Premise</h2>
+<p>Tasked with a brief of examining the New York Police Department’s stop, question and frisk (SQF) policy. I chose to investigate presence and severity of the Department’s racially targeted overpolicing in 2021, after the Black Lives Matters protests. A point pattern analysis, spatial autocorrelation analysis and various visualisations were produced.</p>
+<p>This analysis was completed in exam conditions within 6 hours.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/gis_general.png" class="img-fluid figure-img" style="width:80.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/gis_anon.png" class="img-fluid figure-img" style="width:80.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Point pattern analysis allowed for evaluation of point data regardless of district or ward boundaries. Analysis shows there are 6 distinct clusters of high SQF but low hit rate against African Americans in the area.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/gis_dbscan.png" class="img-fluid figure-img" style="width:80.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Spatial auotcorrelation shows a cluster of districts in mid to upper Manhattan with high SQF with low hit rate in the Bronx, and north-eastern Queens and northern Brooklyn.</p>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="img/gis_moran.png" class="img-fluid"> <img src="img/gis_G.png" class="img-fluid"></p>
+</div>
+</div>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

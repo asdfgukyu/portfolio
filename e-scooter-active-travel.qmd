@@ -6,6 +6,8 @@ Python, difference in difference modelling, multi-temporal DiD modelling, balanc
 ## Premise
 This study investigates whether the introduction of e-scooters has supplemented or disrupted Santander ridership volume, on borough level. A limited number of London boroughs contain Santander Cycles, e-scooter trials, or both modes of transport. This study thus uses difference in difference (DiD) to measure the statistical impact of the introduction of e-scooter trials by comparing boroughs that contain both Santander Cycles and e-scooter trials to similar boroughs with just Santander Cycle docking stations.
 
+This analysis is generated and executable in Python. Code available on [Github](https://github.com/asdfgukyu/dsss/blob/main/a1/DSSS_Guk_Yu.ipynb).
+
 ```{r echo=FALSE, out.width='80%', fig.align='center'}
 knitr::include_graphics("img/dsss_scooter_bike_map.png")
 ```

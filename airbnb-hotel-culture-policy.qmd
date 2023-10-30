@@ -7,7 +7,7 @@ Python, k-means cluster analysis, visualisation, sckit-learn, geopandas, matplot
 
 In response to growing contention of Airbnb's impact on local housing market and affordable homes, I worked with a group of 4 to create a policy brief which provided an alternative explanation to the spatial distribution of Airbnb listings, in relations to existing hotel industry and cultural infrastructures in London. 
 
-This model is generated and executable in Python. Code and policy brief available on [Github](https://github.com/ZacharyP-E/are-you-gitting-me).
+This analysis is generated and executable in Python. Code and policy brief available on [Github](https://github.com/ZacharyP-E/are-you-gitting-me).
 
 
 ```{r echo=FALSE, out.width='80%', fig.align='center'}
