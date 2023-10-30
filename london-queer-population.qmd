@@ -1,3 +1,5 @@
 # London Queer Population
 
-xxx
+```{r echo=FALSE, out.width='80%', fig.align='center'}
+knitr::include_graphics("img/qm_queerperct.png")
+```

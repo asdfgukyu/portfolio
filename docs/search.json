@@ -63,13 +63,6 @@
     "text": "4.2 Premise\nTasked with a brief of examining the New York Police Department’s stop, question and frisk (SQF) policy. I chose to investigate presence and severity of the Department’s racially targeted overpolicing in 2021, after the Black Lives Matters protests. A point pattern analysis, spatial autocorrelation analysis and various visualisations were produced.\nThis analysis was completed in exam conditions within 6 hours and executable in R. Code available on Github.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoint pattern analysis allowed for evaluation of point data regardless of district or ward boundaries. Analysis shows there are 6 distinct clusters of high SQF but low hit rate against African Americans in the area.\n\n\n\n\n\n\n\n\n\nSpatial auotcorrelation shows a cluster of districts in mid to upper Manhattan with high SQF with low hit rate in the Bronx, and north-eastern Queens and northern Brooklyn."
   },
   {
-    "objectID": "london-queer-population.html",
-    "href": "london-queer-population.html",
-    "title": "5  London Queer Population",
-    "section": "",
-    "text": "xxx"
-  },
-  {
     "objectID": "london-underground-heat-resilience-index.html",
     "href": "london-underground-heat-resilience-index.html",
     "title": "6  London Underground Heat Resilience",
