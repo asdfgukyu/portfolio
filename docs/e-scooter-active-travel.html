@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Guk Yu: Portfolio - 2&nbsp; Impact of escooter on active travel</title>
+<title>Guk Yu: Portfolio - 2&nbsp; Causal relationship of e-scooter on bike hire</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Impact of escooter on active travel</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Causal relationship of e-scooter on bike hire</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -110,7 +110,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./e-scooter-active-travel.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Impact of escooter on active travel</span></a>
+  <a href="./e-scooter-active-travel.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Causal relationship of e-scooter on bike hire</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -143,14 +143,25 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#technical-skills" id="toc-technical-skills" class="nav-link active" data-scroll-target="#technical-skills"><span class="toc-section-number">2.1</span>  Technical Skills</a></li>
+  <li><a href="#premise" id="toc-premise" class="nav-link" data-scroll-target="#premise"><span class="toc-section-number">2.2</span>  Premise</a>
+  <ul class="collapse">
+  <li><a href="#balance-test" id="toc-balance-test" class="nav-link" data-scroll-target="#balance-test"><span class="toc-section-number">2.2.1</span>  Balance Test</a></li>
+  <li><a href="#difference-in-difference-modelling" id="toc-difference-in-difference-modelling" class="nav-link" data-scroll-target="#difference-in-difference-modelling"><span class="toc-section-number">2.2.2</span>  Difference in Difference Modelling</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Impact of escooter on active travel</span></h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Causal relationship of e-scooter on bike hire</span></h1>
 </div>
 
 
@@ -164,9 +175,55 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>xxx</p>
+<section id="technical-skills" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="technical-skills"><span class="header-section-number">2.1</span> Technical Skills</h2>
+<p>Python, difference in difference modelling, multi-temporal DiD modelling, balance t-test</p>
+</section>
+<section id="premise" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="premise"><span class="header-section-number">2.2</span> Premise</h2>
+<p>This study investigates whether the introduction of e-scooters has supplemented or disrupted Santander ridership volume, on borough level. A limited number of London boroughs contain Santander Cycles, e-scooter trials, or both modes of transport. This study thus uses difference in difference (DiD) to measure the statistical impact of the introduction of e-scooter trials by comparing boroughs that contain both Santander Cycles and e-scooter trials to similar boroughs with just Santander Cycle docking stations.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/dsss_scooter_bike_map.png" class="img-fluid figure-img" style="width:80.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>It is extremely costly and near-impossible to conduct a controlled and randomised experiment to explore the causal relationship between introduction of e-scooters and Santander bikes. DiD allows us to establish a counterfactual using a controlled group, such that it acts as the treatment group in the absence of treatment. The key dataset used is from Transport for London’s Santander hire database.</p>
+<p>This study also accounts for the behavioural change stemming from the pandemic by incorporating the use of public transport, in the form of bus, underground and overground usage, to act as a proxy for fluctuating Covid-related travel restrictions and preferences.</p>
+<section id="balance-test" class="level3" data-number="2.2.1">
+<h3 data-number="2.2.1" class="anchored" data-anchor-id="balance-test"><span class="header-section-number">2.2.1</span> Balance Test</h3>
+<p>In deciding the most appropriate boroughs to compare, t-tests and visual assessments are used. Only Camden and Islington and Lambeth and Wandsworth were statistically sound for Difference in Difference modelling.</p>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="img/dsss_camden_islington.png" class="img-fluid"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="img/dsss_lambeth_wands.png" class="img-fluid"></p>
+</div>
+</div>
+</div>
+</section>
+<section id="difference-in-difference-modelling" class="level3" data-number="2.2.2">
+<h3 data-number="2.2.2" class="anchored" data-anchor-id="difference-in-difference-modelling"><span class="header-section-number">2.2.2</span> Difference in Difference Modelling</h3>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="img/dsss_did_camdenis.png" class="img-fluid"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="img/dsss_did_lambethwans.png" class="img-fluid"></p>
+</div>
+</div>
+</div>
+<p>Neither of DID models returned statistically significant results, causing inconclusive results. Nonetheless, this outcome raises interesting questions over the length of London’s e-scooter trial. The impact of policies, particularly those which encourage behavioural change, often taken years to manifest. However, given London’s short e-scooter trial of around 3 years, only a short time period of data is available for analysis. This brings the question of whether London’s e-scooter trial needs to be extended a few years longer for significant statistical insights to be possible.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
