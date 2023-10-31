@@ -5,7 +5,9 @@ project:
 book:
   title: "Guk Yu: Portfolio"
   author: "Guk Yu"
-  date: "26/10/2023"
+  date: '31 October 2023'
+  favicon: fav.png
+
   chapters:
     - index.qmd
     - women-15minute-city.qmd
