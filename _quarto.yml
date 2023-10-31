@@ -14,7 +14,6 @@ book:
     - stop-search-frisk.qmd
     - london-queer-population.qmd
     - london-underground-heat-resilience-index.qmd
-    - references.qmd
 
 bibliography: references.bib
 
